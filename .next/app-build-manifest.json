@@ -11,20 +11,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/quiz/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/quiz/page.js"
-    ],
     "/reporta/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/reporta/page.js"
     ],
-    "/guide/page": [
+    "/total/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/guide/page.js"
+      "static/chunks/app/total/page.js"
     ],
     "/map/page": [
       "static/chunks/webpack.js",
@@ -32,15 +27,10 @@
       "static/css/app/map/page.css",
       "static/chunks/app/map/page.js"
     ],
-    "/guide/[slug]/page": [
+    "/quiz/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/guide/[slug]/page.js"
-    ],
-    "/total/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/total/page.js"
+      "static/chunks/app/quiz/page.js"
     ]
   }
 }
