@@ -18,13 +18,13 @@ export default function InfoSection() {
         {/* Texto a la derecha */}
         <div className="w-full md:w-1/2 text-center md:text-left px-6 md:px-12">
           <h2 className="text-3xl font-bold text-green-800 mb-4">
-            ¿Por qué es importante reciclar?
+            Why is it important to recycle?
           </h2>
           <p className="text-lg text-black">
-            El reciclaje ayuda a reducir la contaminación, conserva recursos
-            naturales y protege el medio ambiente. <br />
-            Con GreenCoins, aprenderás a reciclar de forma divertida mientras
-            contribuyes a un planeta más limpio.
+            Recycling helps reduce pollution, conserves natural resources and
+            protects the environment. <br />
+            With GreenCoins, you will learn to recycle in a fun way while
+            contributing to a cleaner planet.
           </p>
         </div>
       </div>

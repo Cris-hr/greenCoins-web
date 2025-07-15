@@ -704,6 +704,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[900px\] {
+  height: 900px;
+}
 .max-h-full {
   max-height: 100%;
 }

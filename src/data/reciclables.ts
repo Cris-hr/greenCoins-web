@@ -1,78 +1,7 @@
-// export const reciclables = [
-//   { name: "Madera", img: "/residuos/madera.jpg", href: "/guia/tarimas" },
-//   {
-//     name: "Bolsas reutilizables (PP)",
-//     img: "/residuos/bolso.webp",
-//     href: "/guia/bolsas",
-//   },
-//   { name: "Chatarra", img: "/residuos/chatarra.png", href: "/guia/playo" },
-//   { name: "Vidrio", img: "/residuos/vidrio.webp", href: "/guia/caple" },
-//   { name: "Cartón", img: "/residuos/carton.webp", href: "/guia/carton" },
-//   { name: "Revistas", img: "/residuos/revistas.png", href: "/guia/revistas" },
-//   { name: "PET", img: "/residuos/pet.webp", href: "/guia/pet" },
-//   { name: "HDPE", img: "/residuos/hdpe.webp", href: "/guia/hdpe" },
-//   {
-//     name: "Bolsas de plástico",
-//     img: "/residuos/bolsas-plastico.webp",
-//     href: "/guia/capsulas",
-//   },
-//   { name: "Lata", img: "/residuos/lataa.webp", href: "/guia/lata" },
-//   {
-//     name: "Papel",
-//     img: "/residuos/papel.webp",
-//     href: "/guia/poliestireno",
-//   },
-//   {
-//     name: "Periódico",
-//     img: "/residuos/periodico.webp",
-//     href: "/guia/periodico",
-//   },
-// ];
-
-// export const manejoEspecial = [
-//   { name: "Pilas", img: "/residuos/pilas.webp", href: "/guia/pilas" },
-//   { name: "Baterías", img: "/residuos/bateria.webp", href: "/guia/baterias" },
-//   { name: "Aceite usado", img: "/residuos/aceite.webp", href: "/guia/aceite" },
-//   {
-//     name: "Residuos electrónicos",
-//     img: "/residuos/electronicos.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Cables",
-//     img: "/residuos/cables.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Celular",
-//     img: "/residuos/celular.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Discos de vinilo",
-//     img: "/residuos/discos.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Focos",
-//     img: "/residuos/focos.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Llantas",
-//     img: "/residuos/llantas.webp",
-//     href: "/guia/electronicos",
-//   },
-//   {
-//     name: "Medicina",
-//     img: "/residuos/medicina.webp",
-//     href: "/guia/electronicos",
-//   },
-// ];
 export const reciclables = [
   {
-    slug: "maderas",
-    name: "Madera",
+    slug: "woods",
+    name: "Wood",
     img: "/residuos/madera.jpg",
     type: "reciclable",
     description:
@@ -84,8 +13,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "bolsas",
-    name: "Bolsas reutilizables (PP)",
+    slug: "bags",
+    name: "Reusable bags (PP)",
     img: "/residuos/bolso.webp",
     type: "reciclable",
     description:
@@ -97,8 +26,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "chatarra",
-    name: "Chatarra",
+    slug: "scrap",
+    name: "Scrap",
     img: "/residuos/chatarra.png",
     type: "reciclable",
     description:
@@ -110,8 +39,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "vidrio",
-    name: "Vidrio",
+    slug: "glass",
+    name: "Glass",
     img: "/residuos/vidrio.webp",
     type: "reciclable",
     description: "El vidrio es 100% reciclable y no pierde calidad.",
@@ -122,8 +51,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "carton",
-    name: "Cartón",
+    slug: "cardboard",
+    name: "Cardboard",
     img: "/residuos/carton.webp",
     type: "reciclable",
     description: "Reciclar cartón ahorra árboles y energía.",
@@ -134,8 +63,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "revistas",
-    name: "Revistas",
+    slug: "magazines",
+    name: "Magazines",
     img: "/residuos/revistas.png",
     type: "reciclable",
     description: "Las revistas deben estar secas y limpias para reciclarse.",
@@ -170,8 +99,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "bolsas-plastico",
-    name: "Bolsas de plástico",
+    slug: "plastic-bags",
+    name: "Plastic bags",
     img: "/residuos/bolsas-plastico.webp",
     type: "reciclable",
     description: "Las bolsas deben estar limpias y secas para su reciclaje.",
@@ -182,8 +111,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "lata",
-    name: "Lata",
+    slug: "can",
+    name: "Can",
     img: "/residuos/lataa.webp",
     type: "reciclable",
     description: "Las latas de aluminio son 100% reciclables.",
@@ -194,8 +123,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "papel",
-    name: "Papel",
+    slug: "paper",
+    name: "Paper",
     img: "/residuos/papel.webp",
     type: "reciclable",
     description:
@@ -207,8 +136,8 @@ export const reciclables = [
     },
   },
   {
-    slug: "periodico",
-    name: "Periódico",
+    slug: "newspaper",
+    name: "Newspaper",
     img: "/residuos/periodico.webp",
     type: "reciclable",
     description: "Los periódicos limpios se reciclan fácilmente.",
@@ -223,8 +152,8 @@ export const reciclables = [
 export const manejoEspecial = [
   // Manejo especial
   {
-    slug: "pilas",
-    name: "Pilas",
+    slug: "batteries",
+    name: "Batteries",
     img: "/residuos/pilas.webp",
     type: "especial",
     description:
@@ -236,8 +165,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "baterias",
-    name: "Baterias",
+    slug: "batteries",
+    name: "Batteries",
     img: "/residuos/bateria.webp",
     type: "especial",
     description: "Las baterías requieren un punto limpio para su disposición.",
@@ -248,8 +177,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "aceite",
-    name: "Aceite usado",
+    slug: "used oil",
+    name: "Used oil",
     img: "/residuos/aceite.webp",
     type: "especial",
     description: "Nunca tires aceite por el desagüe; puede reciclarse.",
@@ -260,8 +189,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "electronicos",
-    name: "Residuos electrónicos",
+    slug: "electronic waste",
+    name: "Electronic waste",
     img: "/residuos/electronicos.webp",
     type: "especial",
     description:
@@ -273,8 +202,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "cables",
-    name: "Cables",
+    slug: "wires",
+    name: "wires",
     img: "/residuos/cables.webp",
     type: "especial",
     description: "Los cables contienen cobre valioso y pueden reciclarse.",
@@ -285,8 +214,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "celulares",
-    name: "Celular",
+    slug: "cell phones",
+    name: "Cell phones",
     img: "/residuos/celular.webp",
     type: "especial",
     description: "Los celulares pueden ser reciclados o donados.",
@@ -297,8 +226,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "discos",
-    name: "Discos de vinilo",
+    slug: "discs",
+    name: "Vinyl discs",
     img: "/residuos/discos.webp",
     type: "especial",
     description:
@@ -310,8 +239,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "foco",
-    name: "Focos",
+    slug: "light bulb",
+    name: "Light bulbs",
     img: "/residuos/focos.webp",
     type: "especial",
     description:
@@ -323,8 +252,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "llantas",
-    name: "Llantas",
+    slug: "tires",
+    name: "Tires",
     img: "/residuos/llantas.webp",
     type: "especial",
     description: "Las llantas pueden reciclarse o reutilizarse.",
@@ -335,8 +264,8 @@ export const manejoEspecial = [
     },
   },
   {
-    slug: "medicina",
-    name: "Medicina",
+    slug: "medicine",
+    name: "Medicine",
     img: "/residuos/medicina.webp",
     type: "especial",
     description:

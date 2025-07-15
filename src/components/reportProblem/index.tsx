@@ -21,7 +21,7 @@ export default function ReportProblem() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!descripcion.trim()) return alert("Por favor escribe una descripción.");
+    if (!descripcion.trim()) return alert("Please write a description.");
     setEnviado(true);
     setNombre("");
     setTipo("");
@@ -31,16 +31,16 @@ export default function ReportProblem() {
   if (enviado && !puntosOtorgados) {
     // ✅ Sumar puntos una sola vez
     sumarPuntos(5);
-    alert("🎉 ¡Gracias por tu contribución! Has ganado 5 GreenCoins.");
+    alert("🎉 ¡Thank you for your contribution! You have earned 5 GreenCoins.");
     setPuntosOtorgados(true);
   }
   if (enviado) {
     return (
       <div className="max-w-md mx-auto p-6 text-center mt-20 mb-20">
-        <h2 className="text-2xl font-bold text-green-700 mb-4">¡Gracias!</h2>
-        <p className="text-lg">Tu reporte fue enviado con éxito ✅</p>
+        <h2 className="text-2xl font-bold text-green-700 mb-4">¡Thank you!</h2>
+        <p className="text-lg">Your report was successfully sent ✅</p>
         <p className="text-green-600 font-semibold mt-2">
-          🎉 Has ganado 5 GreenCoins.
+          🎉 You have earned 5 GreenCoins.
         </p>
         <button
           className="mt-4 bg-green-600 text-white px-4 py-2 rounded"
@@ -49,7 +49,7 @@ export default function ReportProblem() {
             setPuntosOtorgados(false);
           }}
         >
-          Enviar otro reporte
+          Send another report
         </button>
       </div>
     );
@@ -60,9 +60,7 @@ export default function ReportProblem() {
       onSubmit={handleSubmit}
       className="max-w-md mx-auto p-6 space-y-4 bg-white shadow rounded mt-20 mb-20"
     >
-      <h2 className="text-2xl font-bold text-green-700">
-        Reportar un problema
-      </h2>
+      <h2 className="text-2xl font-bold text-green-700">Report a problem</h2>
       <input
         type="file"
         accept="image/*"
@@ -80,14 +78,14 @@ export default function ReportProblem() {
 
       <input
         type="text"
-        placeholder="Tu nombre (opcional)"
+        placeholder="Your name (optional)"
         value={nombre}
         onChange={(e) => setNombre(e.target.value)}
         className="w-full border rounded p-2"
       />
 
       <textarea
-        placeholder="Describe el problema..."
+        placeholder="Describe the problem..."
         value={descripcion}
         onChange={(e) => setDescripcion(e.target.value)}
         rows={4}
@@ -98,7 +96,7 @@ export default function ReportProblem() {
         type="submit"
         className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
       >
-        Enviar reporte
+        Send report
       </button>
     </form>
   );

@@ -9,11 +9,9 @@ export default function GuidePage() {
     <section className="w-full max-w-7xl mx-auto px-6 py-12">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-green-700">
-          Aprende a reciclar
+          Learn how to recycle
         </h2>
-        <p className="text-gray-600">
-          Selecciona el residuo que quieres conocer
-        </p>
+        <p className="text-gray-600">Select the waste you want to know</p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
@@ -35,10 +33,8 @@ export default function GuidePage() {
         ))}
       </div>
       <div className="text-center mb-10 mt-10">
-        <h2 className="text-3xl font-bold text-yellow-400">Manejo Especial</h2>
-        <p className="text-gray-600">
-          Residuos que requieren tratamiento especial
-        </p>
+        <h2 className="text-3xl font-bold text-yellow-400">Special Handling</h2>
+        <p className="text-gray-600">Waste requiring special treatment</p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
