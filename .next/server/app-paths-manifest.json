@@ -1,10 +1,5 @@
 {
-  "/not-found": "app/not-found.js",
-  "/guide/[slug]/page": "app/guide/[slug]/page.js",
-  "/page": "app/page.js",
-  "/guide/page": "app/guide/page.js",
-  "/map/page": "app/map/page.js",
   "/total/page": "app/total/page.js",
-  "/quiz/page": "app/quiz/page.js",
-  "/reporta/page": "app/reporta/page.js"
+  "/residuo/page": "app/residuo/page.js",
+  "/page": "app/page.js"
 }

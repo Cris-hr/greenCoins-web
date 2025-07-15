@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { quizSets } from "@/data/quiz";
-import { sumarPuntos } from "@/utils/sumarPuntos";
+//import { sumarPuntos } from "@/utils/sumarPuntos";
 
 export default function Quiz() {
   const [setActivo, setSetActivo] = useState<number | null>(null);
@@ -15,13 +15,13 @@ export default function Quiz() {
   const [quizCompletado, setQuizCompletado] = useState(false);
 
   // Otorga los puntos una sola vez al completar el quiz
-  useEffect(() => {
-    if (quizCompletado && !puntosOtorgados) {
-      sumarPuntos(10);
-      alert("🎉 ¡Completaste el quiz y ganaste 10 GreenCoins!");
-      setPuntosOtorgados(true);
-    }
-  }, [quizCompletado, puntosOtorgados]);
+  // useEffect(() => {
+  //   if (quizCompletado && !puntosOtorgados) {
+  //     sumarPuntos(10);
+  //     alert("🎉 ¡Completaste el quiz y ganaste 10 GreenCoins!");
+  //     setPuntosOtorgados(true);
+  //   }
+  // }, [quizCompletado, puntosOtorgados]);
 
   if (setActivo === null) {
     return (
@@ -79,7 +79,7 @@ export default function Quiz() {
     setRespondido(false);
     setMostrarConfirmacion(false);
     setQuizCompletado(false);
-    setPuntosOtorgados(false);
+    //setPuntosOtorgados(false);
   };
 
   if (quizCompletado) {
@@ -91,9 +91,9 @@ export default function Quiz() {
         <p className="text-xl mb-2">
           Obtuviste {puntos} de {preguntasSet.length} puntos 🎉
         </p>
-        <p className="text-green-600 font-semibold mt-2">
+        {/* <p className="text-green-600 font-semibold mt-2">
           🎁 ¡Ganaste 10 GreenCoins!
-        </p>
+        </p> */}
         <button
           onClick={volverASeleccion}
           className="mt-6 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"

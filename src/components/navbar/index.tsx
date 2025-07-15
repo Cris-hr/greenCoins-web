@@ -35,6 +35,11 @@ export const Navbar: React.FC = () => {
             Quiz
           </div>
         </Link>
+        <Link href="/residuo">
+          <div className="text-silk hover:border-b-2 hover:border-green-600 p-2">
+            Report waste
+          </div>
+        </Link>
         <Link href="/reporta">
           <div className="text-silk hover:border-b-2 hover:border-green-600 p-2">
             Reports a problem
