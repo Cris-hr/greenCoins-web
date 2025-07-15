@@ -4,9 +4,9 @@ export default function HeroOwner() {
   return (
     <section className="relative overflow-hidden mt-10">
       <div className="absolute inset-0 z-0">
-        <div className="relative h-[900px] w-full">
+        <div className="relative h-[700px] w-full">
           <Image
-            src="/hero1.jpg"
+            src="/hero22.jpg"
             alt="Background"
             fill
             className="object-cover"
@@ -14,7 +14,7 @@ export default function HeroOwner() {
         </div>
       </div>
       <div className="container relative mx-auto px-4 pb-24 pt-10">
-        <p className="text-xl text-white mb-8 text-center">
+        <p className="text-3xl font-medium text-white mb-8 text-center">
           Welcome to GeenCoins...
         </p>
         <h2 className="text-4xl text-white font-bold mb-4 text-center mt-20">

@@ -21,10 +21,19 @@ export default function InfoSection() {
             Why is it important to recycle?
           </h2>
           <p className="text-lg text-black">
-            Recycling helps reduce pollution, conserves natural resources and
-            protects the environment. <br />
-            With GreenCoins, you will learn to recycle in a fun way while
-            contributing to a cleaner planet.
+            Recycling is one of the simplest and most effective ways to care for
+            our planet. It helps reduce pollution, conserve natural resources
+            like water, trees, and minerals, and minimizes the amount of waste
+            sent to landfills and oceans. <br />
+            <br />
+            By recycling, we also reduce greenhouse gas emissions that
+            contribute to climate change and protect wildlife habitats from the
+            harmful effects of waste. <br />
+            <br />
+            With <strong>GreenCoins</strong>, you'll learn to recycle in a fun,
+            interactive way — earning points, playing games, and taking real
+            steps toward a cleaner, more sustainable future. Every small action
+            adds up to big change!
           </p>
         </div>
       </div>

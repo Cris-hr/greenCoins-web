@@ -28,12 +28,6 @@ export default function ReportProblem() {
     setDescripcion("");
   };
 
-  // if (enviado && !puntosOtorgados) {
-  //   // ✅ Sumar puntos una sola vez
-  //   sumarPuntos(5);
-  //   alert("🎉 ¡Thank you for your contribution! You have earned 5 GreenCoins.");
-  //   setPuntosOtorgados(true);
-  // }
   if (enviado) {
     return (
       <div className="max-w-md mx-auto p-6 text-center mt-20 mb-20">

@@ -4,12 +4,11 @@ export const reciclables = [
     name: "Wood",
     img: "/residuos/madera.jpg",
     type: "reciclable",
-    description:
-      "La madera se puede reutilizar o reciclar si está limpia y seca.",
+    description: "The wood can be reused or recycled if it is clean and dry.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make small furniture, decorate walls or create compost.",
+      images: ["/manualidad/madera11.jpeg", "/manualidad/madera12.jpg"],
     },
   },
   {
@@ -18,11 +17,10 @@ export const reciclables = [
     img: "/residuos/bolso.webp",
     type: "reciclable",
     description:
-      "Este tipo de bolsas pueden reutilizarse múltiples veces y luego reciclarse.",
+      "This type of bag can be reused multiple times and then recycled.",
     reutilizacion: {
-      descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+      descripcion: "You can make wall decorations or cover pencil holders.",
+      images: ["/manualidad/bolso11.jpg", "/manualidad/bolso12.jpg"],
     },
   },
   {
@@ -31,11 +29,10 @@ export const reciclables = [
     img: "/residuos/chatarra.png",
     type: "reciclable",
     description:
-      "La chatarra metálica es reciclable y muy valiosa en centros de acopio.",
+      "Scrap metal is recyclable and very valuable in collection centers.",
     reutilizacion: {
-      descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+      descripcion: "You can make from small to large original handicrafts.",
+      images: ["/manualidad/chatarra11.jpg", "/manualidad/chatarra12.jpg"],
     },
   },
   {
@@ -43,11 +40,11 @@ export const reciclables = [
     name: "Glass",
     img: "/residuos/vidrio.webp",
     type: "reciclable",
-    description: "El vidrio es 100% reciclable y no pierde calidad.",
+    description: "Glass is 100% recyclable and does not lose quality.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make pots for plants or sailboats to decorate a dinner party or a spa.",
+      images: ["/manualidad/vidrio.jpg", "/manualidad/vidrio12.webp"],
     },
   },
   {
@@ -55,11 +52,11 @@ export const reciclables = [
     name: "Cardboard",
     img: "/residuos/carton.webp",
     type: "reciclable",
-    description: "Reciclar cartón ahorra árboles y energía.",
+    description: "Recycling cardboard saves trees and energy.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make cat house, pen holder and other decorative items.",
+      images: ["/manualidad/carton11.jpeg", "/manualidad/carton12.jpg"],
     },
   },
   {
@@ -67,11 +64,11 @@ export const reciclables = [
     name: "Magazines",
     img: "/residuos/revistas.png",
     type: "reciclable",
-    description: "Las revistas deben estar secas y limpias para reciclarse.",
+    description: "Magazines must be dry and clean in order to be recycled.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make decorative ornaments for parties, decorate drawers and much more.",
+      images: ["/manualidad/revistas11.jpg", "/manualidad/revistas12.jpg"],
     },
   },
   {
@@ -79,11 +76,11 @@ export const reciclables = [
     name: "PET",
     img: "/residuos/pet.webp",
     type: "reciclable",
-    description: "El PET es reciclado en textiles, botellas y otros productos.",
+    description: "PET is recycled into textiles, bottles, and other products.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make crafts for school, pots for plants, among others..",
+      images: ["/manualidad/pet.jpeg", "/manualidad/pet12.jpeg"],
     },
   },
   {
@@ -91,11 +88,11 @@ export const reciclables = [
     name: "HDPE",
     img: "/residuos/hdpe.webp",
     type: "reciclable",
-    description: "El HDPE es un plástico duro común en envases de limpieza.",
+    description: "HDPE is a common hard plastic used in cleaning containers.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make decorations for school, pencil holders, cleaning utensils, among others.",
+      images: ["/manualidad/hdpe11.jpg", "/manualidad/hdpe12.jpg"],
     },
   },
   {
@@ -103,11 +100,14 @@ export const reciclables = [
     name: "Plastic bags",
     img: "/residuos/bolsas-plastico.webp",
     type: "reciclable",
-    description: "Las bolsas deben estar limpias y secas para su reciclaje.",
+    description: "The bags must be clean and dry for recycling.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can knit wallets and purses, make handicrafts such as flowers, roses, etc.",
+      images: [
+        "/manualidad/bolsa-plastico11.jpg",
+        "/manualidad/bolsa-plastico12.jpg",
+      ],
     },
   },
   {
@@ -115,11 +115,11 @@ export const reciclables = [
     name: "Can",
     img: "/residuos/lataa.webp",
     type: "reciclable",
-    description: "Las latas de aluminio son 100% reciclables.",
+    description: "Aluminum cans are 100% recyclable.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make pencil holders, wall decorations, sugar bowls, etc.",
+      images: ["/manualidad/lata11.jpg", "/manualidad/lata12.jpg"],
     },
   },
   {
@@ -128,11 +128,11 @@ export const reciclables = [
     img: "/residuos/papel.webp",
     type: "reciclable",
     description:
-      "El papel puede reciclarse si no está sucio con grasa o líquidos.",
+      "Paper can be recycled if it is not soiled with grease or liquids.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make decorations for parties, school crafts and more..",
+      images: ["/manualidad/papel11.jpg", "/manualidad/papel12.webp"],
     },
   },
   {
@@ -140,11 +140,11 @@ export const reciclables = [
     name: "Newspaper",
     img: "/residuos/periodico.webp",
     type: "reciclable",
-    description: "Los periódicos limpios se reciclan fácilmente.",
+    description: "Clean newspapers are easily recycled.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make gift bags, crafts such as a wall clock, among others..",
+      images: ["/manualidad/periodico11.jpg", "/manualidad/periodico12.jpg"],
     },
   },
 ];
@@ -157,11 +157,11 @@ export const manejoEspecial = [
     img: "/residuos/pilas.webp",
     type: "especial",
     description:
-      "Las pilas contienen metales tóxicos y deben tratarse adecuadamente.",
+      "Batteries contain toxic metals and must be properly treated..",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make Christmas tree decorations, table decorations, among others..",
+      images: ["/manualidad/pilas.jpg", "/manualidad/pilas2.avif"],
     },
   },
   {
@@ -169,36 +169,39 @@ export const manejoEspecial = [
     name: "Batteries",
     img: "/residuos/bateria.webp",
     type: "especial",
-    description: "Las baterías requieren un punto limpio para su disposición.",
+    description: "Batteries require a clean point for disposal.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "Batteries require special treatment and care, you should take them to authorized recycling points.",
+      images: ["/manualidad/bateria11.webp", "/manualidad/bateria12.jpg"],
     },
   },
   {
-    slug: "used oil",
+    slug: "used-oil",
     name: "Used oil",
     img: "/residuos/aceite.webp",
     type: "especial",
-    description: "Nunca tires aceite por el desagüe; puede reciclarse.",
+    description: "Never pour oil down the drain; it can be recycled.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "Used oil should not be disposed of just anywhere, it requires special treatment and should be taken to authorized points.",
+      images: ["/manualidad/aceite11.jpg", "/manualidad/aceite12.jpg"],
     },
   },
   {
-    slug: "electronic waste",
+    slug: "electronic-waste",
     name: "Electronic waste",
     img: "/residuos/electronicos.webp",
     type: "especial",
     description:
-      "Los electrónicos deben reciclarse para recuperar metales y evitar contaminación.",
+      "Electronics must be recycled to recover metals and avoid contamination.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make pencil holders and handicrafts with parts of electronic equipment.",
+      images: [
+        "/manualidad/electronicos11.jpg",
+        "/manualidad/electronicos12.jpg",
+      ],
     },
   },
   {
@@ -206,23 +209,22 @@ export const manejoEspecial = [
     name: "wires",
     img: "/residuos/cables.webp",
     type: "especial",
-    description: "Los cables contienen cobre valioso y pueden reciclarse.",
+    description: "Cables contain valuable copper and can be recycled.",
     reutilizacion: {
-      descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+      descripcion: "You can make various handicrafts, as well as knit chairs..",
+      images: ["/manualidad/cables11.webp", "/manualidad/cables12.jpg"],
     },
   },
   {
-    slug: "cell phones",
+    slug: "cell-phones",
     name: "Cell phones",
     img: "/residuos/celular.webp",
     type: "especial",
-    description: "Los celulares pueden ser reciclados o donados.",
+    description: "Cell phones can be recycled or donated.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "Cell phones must be recycled in authorized points for special treatment.",
+      images: ["/manualidad/celular11.jpg", "/manualidad/celular12.avif"],
     },
   },
   {
@@ -231,24 +233,23 @@ export const manejoEspecial = [
     img: "/residuos/discos.webp",
     type: "especial",
     description:
-      "No reciclables tradicionalmente; deben donarse o manejarse con cuidado.",
+      "Not traditionally recyclable; should be donated or handled with care.",
     reutilizacion: {
-      descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+      descripcion: "You can make wall decorations, table decorations, etc.",
+      images: ["/manualidad/disco11.webp", "/manualidad/disco12.jpg"],
     },
   },
   {
-    slug: "light bulb",
+    slug: "light-bulb",
     name: "Light bulbs",
     img: "/residuos/focos.webp",
     type: "especial",
     description:
-      "Los focos contienen mercurio y deben desecharse en puntos específicos.",
+      "The bulbs contain mercury and must be disposed of at specific points.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make decorations to decorate home environments such as the living room, bedroom or office.",
+      images: ["/manualidad/foco11.jpg", "/manualidad/foco12.webp"],
     },
   },
   {
@@ -256,11 +257,11 @@ export const manejoEspecial = [
     name: "Tires",
     img: "/residuos/llantas.webp",
     type: "especial",
-    description: "Las llantas pueden reciclarse o reutilizarse.",
+    description: "Tires can be recycled or reused.",
     reutilizacion: {
       descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+        "You can make flower pots, children's games, chicken feeders, etc.",
+      images: ["/manualidad/llanta11.webp", "/manualidad/llanta12.jpg"],
     },
   },
   {
@@ -269,11 +270,10 @@ export const manejoEspecial = [
     img: "/residuos/medicina.webp",
     type: "especial",
     description:
-      "No deben tirarse a la basura ni al WC; llévalas a un punto limpio.",
+      "They should not be thrown in the garbage, they should be taken to a clean point..",
     reutilizacion: {
-      descripcion:
-        "Puedes hacer muebles pequeños, decorar paredes o crear compost.",
-      images: ["/reutilizacion/carton1.jpg", "/reutilizacion/carton2.jpg"],
+      descripcion: "Medicine bottles can also be used for handicrafts.",
+      images: ["/manualidad/medicina11.avif", "/manualidad/medicina12.jpg"],
     },
   },
 ];

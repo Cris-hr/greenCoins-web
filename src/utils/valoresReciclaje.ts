@@ -1,27 +1,3 @@
-// export function getPuntosPorResiduo(tipo: string): number {
-//   const normalizado = tipo.trim().toLowerCase();
-
-//   const mapa: Record<string, number> = {
-//     "botella de plástico (pet)": 2,
-//     papel: 20,
-//     vidrio: 10,
-//     lata: 2,
-//     "lata de aluminio": 3,
-//     baterías: 20,
-//     "bolsa reutilizable": 5,
-//     "equipo electronico": 10,
-//     "bolsa de plastico": 1,
-//     carton: 25,
-//     madera: 15,
-//     chatarra: 20,
-//     cables: 5,
-//     celular: 10,
-//     llanta: 4,
-//   };
-
-//   return mapa[normalizado] ?? 5;
-// }
-
 export const residuos = [
   { nombre: "botella de plástico (pet)", puntos: 2 },
   { nombre: "papel", puntos: 20 },

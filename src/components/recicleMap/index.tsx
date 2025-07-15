@@ -1,13 +1,10 @@
 "use client";
 
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-import { LatLngTuple } from "leaflet";
 import { puntosReciclaje } from "@/data/puntosReciclaje";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect } from "react";
-
-//const center: LatLngTuple = [-12.1, -77.03];
 
 // Fix para íconos de Leaflet que no se muestran por defecto
 delete (L.Icon.Default as any).prototype._getIconUrl;
@@ -34,7 +31,7 @@ export default function RecicleMap() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold mb-6 text-green-700">
-        Puntos de Reciclaje
+        Recycling Points
       </h1>
 
       <MapContainer className="h-[500px] w-full rounded-xl shadow-lg">

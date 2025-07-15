@@ -27,10 +27,10 @@ export default function Quiz() {
     return (
       <div className="max-w-xl mx-auto p-6 text-center mt-10 mb-10">
         <h1 className="text-2xl font-bold text-green-700 mb-4">
-          Pon a prueba tus conocimientos...
+          Test your knowledge...
         </h1>
         <h2 className="text-2xl font-bold text-black mb-4">
-          Selecciona un set de preguntas
+          Select a set of questions
         </h2>
         <div className="grid gap-4">
           {quizSets.map((_, i) => (
@@ -86,10 +86,10 @@ export default function Quiz() {
     return (
       <div className="max-w-xl mx-auto p-6 text-center">
         <h2 className="text-2xl font-bold text-green-700 mb-4">
-          ¡Quiz terminado!
+          ¡Quiz completed!
         </h2>
         <p className="text-xl mb-2">
-          Obtuviste {puntos} de {preguntasSet.length} puntos 🎉
+          You obtained {puntos} out of {preguntasSet.length} points 🎉
         </p>
         {/* <p className="text-green-600 font-semibold mt-2">
           🎁 ¡Ganaste 10 GreenCoins!
@@ -98,7 +98,7 @@ export default function Quiz() {
           onClick={volverASeleccion}
           className="mt-6 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
         >
-          Jugar otro Quiz
+          Play another Quiz
         </button>
       </div>
     );
@@ -107,7 +107,7 @@ export default function Quiz() {
   return (
     <div className="max-w-xl mx-auto p-6">
       <h2 className="text-xl font-bold text-green-700 mb-2">
-        Pregunta {paso + 1} de {preguntasSet.length}
+        question {paso + 1} of {preguntasSet.length}
       </h2>
       <p className="text-lg font-medium mb-4">{preguntaActual.pregunta}</p>
 
@@ -146,7 +146,7 @@ export default function Quiz() {
             onClick={siguiente}
             className="mt-3 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
           >
-            Siguiente
+            Next
           </button>
         </div>
       )}
@@ -157,23 +157,23 @@ export default function Quiz() {
             onClick={() => setMostrarConfirmacion(true)}
             className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 text-sm"
           >
-            Reiniciar juego
+            Restart game
           </button>
         ) : (
           <div className="mt-4 text-sm bg-red-50 p-3 rounded border border-red-200 text-red-800">
-            <p className="mb-2">¿Seguro que deseas reiniciar el quiz?</p>
+            <p className="mb-2">¿Are you sure you want to restart the quiz?</p>
             <div className="flex gap-2 justify-center">
               <button
                 onClick={volverASeleccion}
                 className="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700"
               >
-                Sí, reiniciar
+                Yes, restart
               </button>
               <button
                 onClick={() => setMostrarConfirmacion(false)}
                 className="px-3 py-1 border border-gray-400 rounded hover:bg-gray-100"
               >
-                Cancelar
+                Cancel
               </button>
             </div>
           </div>

@@ -18,11 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`overflow-x-hidden ${inter.className}`}>
+      <body
+        className={`overflow-x-hidden flex flex-col min-h-screen ${inter.className}`}
+      >
         <header className="bg-white text-black px-4 py-2 shadow-md h-20">
           <Navbar />
         </header>
-        {children}
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

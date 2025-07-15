@@ -1,5 +1,7 @@
 {
-  "/total/page": "app/total/page.js",
   "/residuo/page": "app/residuo/page.js",
+  "/total/page": "app/total/page.js",
+  "/quiz/page": "app/quiz/page.js",
+  "/guide/page": "app/guide/page.js",
   "/page": "app/page.js"
 }

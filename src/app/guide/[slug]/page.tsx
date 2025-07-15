@@ -41,7 +41,7 @@ export default function ResiduoPage({ params }: Props) {
           {/* Descripción de reutilización */}
           <div>
             <h2 className="text-2xl font-semibold text-green-600 mb-4">
-              ¿Qué puedes hacer con este residuo?
+              What can you do with this waste?
             </h2>
             <p className="text-gray-700 leading-relaxed">
               {residuo.reutilizacion.descripcion}
