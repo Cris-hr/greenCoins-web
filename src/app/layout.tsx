@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import Footer from "@/components/footer";
 import "./globals.css";
 import "leaflet/dist/leaflet.css";

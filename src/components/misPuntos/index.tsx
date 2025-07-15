@@ -1,38 +1,3 @@
-// "use client";
-
-// import { useEffect, useState } from "react";
-// import Link from "next/link";
-
-// export default function MisPuntos() {
-//   const [puntos, setPuntos] = useState(0);
-
-//   useEffect(() => {
-//     const puntosGuardados = parseInt(
-//       localStorage.getItem("greenCoins") || "0",
-//       10
-//     );
-//     setPuntos(puntosGuardados);
-//   }, []);
-
-//   return (
-//     <div className="max-w-md mx-auto p-6 mt-20 text-center mb-20">
-//       <h1 className="text-3xl font-bold text-green-700 mb-4">
-//         💰 Tus GreenCoins
-//       </h1>
-//       <p className="text-5xl font-bold text-green-600">{puntos}</p>
-//       <p className="mt-4 text-gray-600">
-//         ¡Sigue ayudando al planeta para ganar más!
-//       </p>
-
-//       <Link href="/">
-//         <button className="mt-6 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-//           Volver al inicio
-//         </button>
-//       </Link>
-//     </div>
-//   );
-// }
-
 "use client";
 
 import { useEffect, useState } from "react";
