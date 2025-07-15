@@ -1,0 +1,9 @@
+{
+  "/quiz/page": "app/quiz/page.js",
+  "/guide/[slug]/page": "app/guide/[slug]/page.js",
+  "/reporta/page": "app/reporta/page.js",
+  "/total/page": "app/total/page.js",
+  "/page": "app/page.js",
+  "/guide/page": "app/guide/page.js",
+  "/map/page": "app/map/page.js"
+}
