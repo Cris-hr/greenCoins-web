@@ -1,6 +1,11 @@
 {
   "name": "greencoins",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cris-hr/greenCoins-web.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
