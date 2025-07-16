@@ -9,7 +9,7 @@ export default function ReportarResiduo() {
   const [mensaje, setMensaje] = useState("");
   const [mostrarModal, setMostrarModal] = useState(false);
 
-  const residuosPorKilo = ["papel", "chatarra", "carton", "cable", "madera"];
+  const residuosPorKilo = ["paper", "scrap", "cardboard", "wire", "wood"];
 
   const handleItemChange = (
     index: number,
@@ -67,7 +67,7 @@ export default function ReportarResiduo() {
     });
 
     if (totalPuntos === 0) {
-      alert("Por favor, completa al menos un tipo y cantidad válida.");
+      alert("Please complete at least one valid type and quantity.");
       return;
     }
 
@@ -83,7 +83,7 @@ export default function ReportarResiduo() {
 
     // ✅ Mostrar mensaje
     setMensaje(
-      `✅ ¡Gracias! Has ganado ${totalPuntos} GreenCoins por reciclar: ${detalles.join(
+      `✅ ¡Thank you! You have earned ${totalPuntos} GreenCoins for recycling: ${detalles.join(
         ", "
       )}.`
     );
@@ -145,7 +145,7 @@ export default function ReportarResiduo() {
                 const unidad = residuosPorKilo.includes(
                   residuo.nombre.toLowerCase()
                 )
-                  ? "Kilo"
+                  ? "Kg"
                   : "Und.";
                 return (
                   <option key={residuo.nombre} value={residuo.nombre}>
